@@ -1,0 +1,337 @@
+/*---------------Cabeçalho---------------*/
+
+.cabecalho {
+    background-color: #DCFFFB;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif; 
+    height: 171px;
+}
+
+img.cabecalho {
+    position: absolute;
+}
+
+.menu {
+    text-decoration: none;
+    color: #F24405;
+    font-size: 18px;
+    
+    position: absolute;
+    width: 437px;
+    height: 22px;
+    right: 64px;
+    top: 74px;
+}
+
+nav li {
+    display: inline-block; 
+}
+
+/*---------------Banner---------------*/
+
+.banner{
+    text-align: center;
+}
+
+#banner {
+    border-radius: 8px; 
+    top: 215px;
+    margin: 44px auto 47px auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#botao-banner {
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 53px;
+      
+    top: 444px;
+    
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    background: #348888;
+    border-radius: 26.5px;
+    /* border: none;*/
+}
+
+/*---------------Pacotes---------------*/
+#titulo-programas {
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 0px;
+}
+
+.programa-imagens {
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+}
+
+.programas {
+    text-align: center;
+    position: relative;
+}
+
+.programa-item {
+    position: relative;
+}
+
+.programa-item p {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    top:30%;
+    font-size: 20px;
+    color:white
+}
+
+.programa-item:hover p {
+    visibility: visible;
+}
+
+.programa-item:hover {
+    background-color: #d43e10;
+}
+.programa-item:hover img {
+    opacity: 0.5;
+}
+
+/*---------------Quem Somos---------------*/
+.quem-somos {
+    left: 67px;
+    top: 329px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    text-align: left;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.p-quem-somos {
+    margin-bottom: 25px;
+}
+
+/*---------------Depoimentos---------------*/
+.depoimentos {
+    margin-top: 35px;
+    margin-bottom: 45px;
+    margin-left: 64px;
+      
+}
+
+.paragrafo-depoimentos {
+    position: absolute;
+    margin: 42px 41.5px 74px 41.5px;
+    
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #717070;
+}
+
+.caixa-depoimentos {
+    
+    width: 358px;
+    height: 254px;
+    margin-left: 42px;
+    
+    position: relative;
+    display: inline-flex;
+        
+    background: rgba(251, 228, 206, 0.22);
+}
+
+.nome-depoimento {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+   
+    color: #F24405;
+}
+
+/*---------------Newsletter---------------*/
+.container-newsletter {
+    width: 1152px;
+    height: 220px;
+    /*left: 64px;
+    top: 1656px;*/
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+
+    
+    background: #DCFFFB;
+
+    font-family: 'Inter', sans-serif;
+    color:#F24405;
+}
+
+#assine-titulo {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    /*left: 17px; */
+    margin-top: 22px;
+    margin-left: 17px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+
+    color: #F24405;
+}
+
+.dados-form {
+    position: absolute;
+    /*height: 58px;*/
+    margin-top: 68px;
+    margin-left: 17px;
+
+    /*background: #FFFFFF;*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+    color: #FA7F08;
+}
+
+.termos{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 110px;
+}
+
+
+.concordo {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 13px;
+    color: #F24405;
+}
+
+.dados-form input {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 13px;
+    color: #F24405;
+}
+
+::placeholder {
+    color: #F24405;
+}
+
+
+#botao-newsletter{
+    position: absolute;
+    width: 167px;
+    height: 43px;
+    margin-top: 150px;
+    
+    background: #FA7F08;
+    border-radius: 9px;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*---------------Parceiros---------------*/
+.parceiros {
+    left: 64px;
+    top: 1956px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    text-align: center;
+   
+}
+
+.parceiros-imagens {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*---------------Configurações gerais---------------*/
+h2 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #348888;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #373737;
+    /*margin-left: 64px;
+    margin-right: 64px;*/
+}
+
+/*---------------Rodapé---------------*/
+#siga-nos {
+    margin-top: 35px;
+    margin-bottom: 24px;
+}
+
+footer {
+    background-color: #DCFFFB;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Inter', sans-serif; 
+    height: 288px;
+    left: 0px;
+    top: 2267px;
+}
+
+#frase-footer {
+    align-content: flex-end;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #348888;
+}
+
+.logos-redes {
+    display: flex;
+    flex-direction: row;
+    left: 469px;
+    margin-bottom: 50px;
+}
+
