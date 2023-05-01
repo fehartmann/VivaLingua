@@ -1,6 +1,6 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-# :airline: Projeto VivaLingua
+# Projeto VivaLingua
 Site de viagens para intercâmbio
 
 ## **Descrição do projeto** 
@@ -24,6 +24,6 @@ Link do VivaLingua: https://fehartmann.github.io/VivaLingua/
 `HTML5` `CSS3` `Javascript` `Bootstrap` `Node.js` 
 
 ## **Desenvolvedoras do projeto** ##
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="https://avatars.githubusercontent.com/u/30351153?v=4" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
+| [<img src="" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
 | :---: | :---: |
 
