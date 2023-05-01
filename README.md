@@ -1,5 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-[<img src="https://user-images.githubusercontent.com/116191544/235405537-e229d37d-3782-447b-ac9c-de002ec2d6a1.png" width= 150px align-item=right>]
+<img src="https://user-images.githubusercontent.com/116191544/235405537-e229d37d-3782-447b-ac9c-de002ec2d6a1.png" width= 150px align-item=left>
 # Projeto VivaLingua
 Site de viagens para intercâmbio
 
