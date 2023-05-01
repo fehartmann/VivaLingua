@@ -1,5 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-![Logo Agência de Viagens](https://user-images.githubusercontent.com/116191544/235405537-e229d37d-3782-447b-ac9c-de002ec2d6a1.png)
+[<img src="https://user-images.githubusercontent.com/116191544/235405537-e229d37d-3782-447b-ac9c-de002ec2d6a1.png" width= 150px align-item=right>]
 # Projeto VivaLingua
 Site de viagens para intercâmbio
 
@@ -24,6 +24,6 @@ Link do VivaLingua: https://fehartmann.github.io/VivaLingua/
 `HTML5` `CSS3` `Javascript` `Bootstrap` `Node.js` 
 
 ## **Desenvolvedoras do projeto** ##
-| [<img src="https://user-images.githubusercontent.com/116191544/235405499-12fe2f7d-f571-4cef-b2fc-b9dce0d70937.jpg)" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
+| [<img src="https://user-images.githubusercontent.com/116191544/235405499-12fe2f7d-f571-4cef-b2fc-b9dce0d70937.jpg" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
 | :---: | :---: |
 
