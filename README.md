@@ -24,6 +24,6 @@ Link do VivaLingua: https://fehartmann.github.io/VivaLingua/
 `HTML5` `CSS3` `Javascript` `Bootstrap` `Node.js` 
 
 ## **Desenvolvedoras do projeto** ##
-| [<img src="https://user-images.githubusercontent.com/116191544/235405499-12fe2f7d-f571-4cef-b2fc-b9dce0d70937.jpg" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
+| [<img src="https://user-images.githubusercontent.com/116191544/235405499-12fe2f7d-f571-4cef-b2fc-b9dce0d70937.jpg" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) |  [<img src="![WhatsApp Image 2023-05-03 at 19 50 32](https://user-images.githubusercontent.com/116191544/236593885-dfb85882-651e-4ae0-8194-b3c12eb1b880.jpeg)" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) |
 | :---: | :---: |
 
