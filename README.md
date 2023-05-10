@@ -9,7 +9,7 @@ Projeto criado em dupla para o curso de Programação Frontend Web da Jump! Educ
 ## **Status do projeto** ##
 O projeto está em desenvolvimento, conforme o cronograma do curso:
 - [x] 24/04 - Pré-entrega 1: Página 1 e 2 com HTML e CSS
-- [ ] 15/05 - 5 páginas com HTML, CSS, Bootstrap e design responsivo.
+- [ ] 15/05 - 3 páginas com HTML, CSS, Bootstrap e design responsivo.
 - [ ] 29/05 - 
 - [ ] 07/06 - 
 - [ ] 28/06 - 

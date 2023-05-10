@@ -1,45 +1,5 @@
-/*---------------Cabeçalho---------------*/
 
-.cabecalho {
-    background-color: #DCFFFB;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Inter', sans-serif; 
-    height: 171px;
-}
-
-img.cabecalho {
-    position: absolute;
-}
-
-.menu {
-    text-decoration: none;
-    color: #F24405;
-    font-size: 18px;
-    
-    position: absolute;
-    width: 437px;
-    height: 22px;
-    right: 64px;
-    top: 74px;
-}
-
-nav li {
-    display: inline-block; 
-}
-
-/*---------------Geral---------------*/
-
-h2 {
-    font-family: 'montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: #348888;
-    margin-bottom: 30px;
-}
-
-/*---------------Pacotes---------------*/
+/*------------Programas------------*/
 
 #titulo-pacotes {
     /*margin-top: 41px;*/
