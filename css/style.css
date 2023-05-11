@@ -1,8 +1,8 @@
 /*---------------Configurações gerais---------------*/
 h2 {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     color: #348888;
     margin-bottom: 1.9rem;
 }
@@ -11,8 +11,8 @@ p {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.3rem;
-    line-height: 1.8rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
     color: #373737;
 }
 
@@ -105,14 +105,21 @@ img .cabecalho {
 
 #principais-programas-titulo {
     text-align: center;
-    margin-bottom: 45px;
-    margin-left: 0px;
+    margin-bottom: 3rem;
+    margin-left: 0;
 }
 
 .principais-programas-img {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 41px;
+    gap: 2.5rem;    
+}
+
+.principais-programas-img img {
+    width: 15rem;
+    height: 11rem;
+    border-radius: 8px;
 }
 
 .principais-programas-item {
@@ -126,7 +133,8 @@ img .cabecalho {
     text-align: center;
     width: 100%;
     top:30%;
-    font-size: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
     color:white
 }
 
@@ -136,6 +144,7 @@ img .cabecalho {
 
 .principais-programas-item:hover {
     background-color: #d43e10;
+    border-radius: 8px;
 }
 .principais-programas-item:hover img {
     opacity: 0.5;
@@ -143,44 +152,42 @@ img .cabecalho {
 
 /*---------------Quem Somos---------------*/
 .quem-somos {
-    left: 67px;
-    top: 329px;
-    margin-top: 35px;
-    margin-bottom: 45px;
+    margin-top: 2rem;
+    margin-bottom: 2.8rem;
     text-align: left;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
-.quem-somos-p {
-    margin-bottom: 25px;
+.quem-somos p {
+    margin-bottom: 1rem;
 }
 
 /*---------------Depoimentos---------------*/
 .depoimentos {
-    margin-top: 35px;
-    margin-bottom: 45px;
-    margin-left: 64px; 
+    margin-top: 2rem;
+    margin-bottom: 2.8rem;
+    margin-left: 4rem; 
 }
 
 .depoimentos-p {
     position: absolute;
-    margin: 42px 41.5px 74px 41.5px;
+    margin: 2.6rem 2.5rem 4.6rem 2.5rem;
     
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-align: center;
     
     color: #717070;
 }
 
 .depoimentos-caixa {
-    width: 358px;
-    height: 254px;
-    margin-left: 42px;
+    width: 22rem;
+    height: 15rem;
+    margin-left: 2.6rem;
     
     position: relative;
     display: inline-flex;
@@ -189,25 +196,22 @@ img .cabecalho {
 }
 
 .depoimentos-nome {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 29px;
+    font-size: 1rem;
    
     color: #F24405;
 }
 
 /*---------------Newsletter---------------*/
 .newsletter-container {
-    width: 1152px;
-    height: 220px;
-    /*left: 64px;
-    top: 1656px;*/
-    margin-left: 64px;
-    margin-right: 64px;
+    width: 60%;
+    height: 12rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-
+    justify-content: space-between;
     
     background: #DCFFFB;
 
@@ -217,89 +221,84 @@ img .cabecalho {
 
 #newsletter-titulo {
     position: absolute;
-    width: 300px;
-    height: 30px;
-    /*left: 17px; */
-    margin-top: 22px;
-    margin-left: 17px;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
     
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1.5rem;
+    text-align: left;
 
     color: #F24405;
 }
 
 .newsletter-dados {
     position: absolute;
-    /*height: 58px;*/
-    margin-top: 68px;
-    margin-left: 17px;
-
-    /*background: #FFFFFF;*/
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 16px;
-    text-align: left;
-    color: #FA7F08;
+    margin-top: 4rem;
+    margin-left: 1rem;   
 }
 
 .newsletter-dados input {
-    font-family: Inter;
-    font-style: normal;
-    font-size: 13px;
-    color: #F24405;
+    font-size: 1rem;
+    color: #373737;
+   
+    border: none;
+    height: 2rem;
+}
+
+#inputNome {
+    width: 20rem;
+}
+
+#inputEmail {
+    width: 16rem;
+}
+
+#inputTel {
+    width: 11rem;
 }
 
 ::placeholder {
     color: #F24405;
+    text-align:start;
+    font-size: 0.6rem;
 }
 
-.newsletter-termos{
+.newsletter-termos {
     display: flex;
+    align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5rem;
 }
 
 .newsletter-p {
-    font-family: Inter;
-    font-style: normal;
-    font-size: 13px;
+    font-size: 0.7rem;
     color: #F24405;
 }
 
 #newsletter-btn{
     position: absolute;
-    width: 167px;
-    height: 43px;
-    margin-top: 150px;
+    width: 10rem;
+    height: 2.6rem;
+    margin-top: 4.5rem;
     
     background: #FA7F08;
     border-radius: 9px;
     border: none;
 
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
-
     color: #FFFFFF;
 }
 
 /*---------------Parceiros---------------*/
 .parceiros {
-    left: 64px;
-    top: 1956px;
-    margin-top: 35px;
-    margin-bottom: 60px;
+    left: 4rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     text-align: center;
-   
 }
 
 .parceiros-imagens {
@@ -457,8 +456,15 @@ img .cabecalho {
 .vantagens-textos {
     text-align: left;
     display: flex;
-    margin-right: 64px;
-    
+    margin-right: 64px;  
+}
+
+.vantagens-textos p {
+    left: 145px;
+    width: 273px;
+    height: 132px;
+    margin-top: 80px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -467,14 +473,6 @@ img .cabecalho {
     gap: 5em;
 
     color: #717070;
-}
-
-.vantagens-textos p {
-    left: 145px;
-    width: 273px;
-    height: 132px;
-    margin-top: 80px;
-     /*position: absolute; */
 }
 
 /*---------------Blog---------------*/
@@ -491,8 +489,10 @@ img .cabecalho {
 .blog-imagens{
     display:inline-block;
     margin-right: 54px;
-    margin-bottom: 71px;
-    
+    margin-bottom: 71px;   
+}
+
+.blog-imagens p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
