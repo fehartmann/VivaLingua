@@ -1,116 +1,261 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>VivaLingua Intercâmbio</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-        <link rel = "icon" type = "image/png" href="imagens/Icon-VivaLingua.png">
-    </head>
-    <body>
-        <header>
-        <div class="cabecalho"> 
-            <h1><img src="imagens/Logo-Agencia-de-Viagens.png" alt = "Imagem da logomarca"></h1>
-            <nav class= "cabecalho-menu">
-                <ul>  
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "programas/index.html">Programas</a></li>
-                    <li><a href = "orcamentos.html">Orçamentos</a></li>
-                    <li><a href = "blog.html">Blog</a></li>
-                    <li><a href = "quem-somos.html">Quem somos</a></li>                
-                </ul>
-            </nav>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>VivaLingua Intercâmbio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="imagens/Icon-VivaLingua.png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="./imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
+                        height="96em" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item" aria-current="page">
+                            <a class='nav-link' style="color: #F24405" href="/home/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class='nav-link' style="color: #F24405" href="/programas/">
+                                Programas
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="/orcamentos/">
+                                Orçamentos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class='nav-link disabled' href="/blog/">
+                                Blog
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="/quem-somos/">
+                                Quem somos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleSlidesOnly" class="carousel slide banner" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 img" style="border-radius: 8px;" src="./imagens/Banner-para-site.png"
+                    alt="Banner do site">
+            </div>
         </div>
-        </header>
-            <div class="banner">
-                <img id="banner-img" src="imagens/Banner-para-site.png" alt="Banner do site">
-                <button id="banner-btn"><a href="blog.html">Saber mais</a></button>
-            </div>    
-        <main>
+        <button type="button" class="btn btn-primary btn-lg"><a href="/blog/">Saber mais</a></button>
+    </div>
+    <main>
         <section class="principais-programas">
             <h2 id="principais-programas-titulo">Principais programas</h2>
-            <div class="principais-programas-img">   
+            <div class="principais-programas-img">
                 <div class="principais-programas-item">
                     <img src="imagens/amigos-computador.jpg" alt="Trabalhar e estudar nos EUA">
                     <p>Trabalhar e estudar em um College ou Curso Técnico</p>
-                </div>                    
+                </div>
                 <div class="principais-programas-item">
                     <img src="imagens/mulher-crianca.jpg" alt="Imagem de uma mulher com uma criança">
-                   <p>Au pair</p>                
-                </div>                  
+                    <p>Au pair</p>
+                </div>
                 <div class="principais-programas-item">
                     <img src="imagens/conversa-mulheres.jpg" alt="Imagem com mulheres conversando">
-                    <p>Trabalhar e Estudar nos EUA</p>                
-                </div> 
-            </div>     
-        </section>    
-            
-        <section class="quem-somos">
-                <h2>Quem somos</h2>
-                <p>Somos uma agência de intercâmbio especializada em proporcionar a adultos a oportunidade de aprender um novo idioma viajando ou trabalhando no exterior.<br></p>
-
-                <p>Oferecemos programas completos combinando estudo, trabalho e diversão, em parceria com escolas de idiomas e empresas locais confiáveis.<br></p>
-                    
-                <p>Nossa missão é proporcionar uma experiência única e transformadora, permitindo que nossos clientes adquiram fluência em um novo idioma enquanto vivenciam uma nova cultura e fazem conexões internacionais valiosas.</p>
-            </section>
-        </main>    
-       
-        <section class="depoimentos">
-            <h2>Depoimentos</h2>
-                <div class="depoimentos-caixa"> 
-                    <p class="depoimentos-p">“Explorei a cidade, visitei pontos turísticos famosos, fiz compras e experimentei a culinária americana. Melhorei muito meu inglês e fiz amizades com pessoas de várias partes do mundo”
-                    <br><strong class="depoimentos-nome ">Marcela, 32 anos</strong></p>
-                </div> 
-                <div class="depoimentos-caixa">
-                    <p class="depoimentos-p">“Escolhi um programa que combinava aulas de espanhol em Sevilha com acomodação em uma casa de família. Adorei a experiência, mergulhando na cultura espanhola, aprendendo sobre a história e a arte do país e praticando o espanhol em situações reais”
-                    <br><strong class="depoimentos-nome ">Thaís, 26 anos</strong></p>
+                    <p>Trabalhar e Estudar nos EUA</p>
                 </div>
-                <div class="depoimentos-caixa">
-                    <p class="depoimentos-p">“Decidi fazer um intercâmbio para a África do Sul para aprimorar meu inglês e conhecer um país cheio de diversidade cultural. A experiência foi transformadora, com aulas de inglês, atividades culturais e voluntariado”
-                    <br><strong class="depoimentos-nome ">Felipe, 29 anos</strong></p>
-                </div> 
-        </section>
-       
-        <section>
-            <form class="newsletter-container">
-                <h3 id="newsletter-titulo">Assine nossa Newsletter</h3>
-                <div class="newsletter-dados">
-                    <input id="inputNome" type="text" name="Nome completo" placeholder="Nome completo">
-                    <input id="inputEmail" type="email" name="Email" alt="E-mail" placeholder="E-mail">
-                    <input id="inputTel" type="tel" name="Telefone" alt="Telefone" placeholder="Telefone">
-                </div> 
-                <div class="newsletter-termos">
-                    <input type="checkbox" name="acepta" value="1" />
-                    <p class="newsletter-p">Li e concordo com os termos</p>
-                    <input id="newsletter-btn" type="submit" value="Cadastrar">
-                </div>                    
-            </form>
-        </section>
-        
-        <section class="parceiros">
-            <h2>Parceiros</h2>
-            <div class="parceiros-imagens">
-                <img src="imagens/mapfre.png" alt="Logo da Mapfre" width=159 height=79>
-                <img src="imagens/pfizer.png" alt="Logo da Pfizer" width=156 height=101>
-                <img src="imagens/leeds.png" alt="Logo da Leads" width=302 height=93>
-                <img src="imagens/nike.png" alt="Logo da Nike" width=161 height=85>
             </div>
         </section>
-    <footer>
-            <h2>Siga-nos</h2>
-            <div class="imagens-rodape">
-                <img src="imagens/1.png" alt="Twitter" width="63px" height="63px" href="#">
-                <img src="imagens/2.png" alt="Facebook" width="63px" height="63px" href="#">
-                <img src="imagens/3.png" alt="Instagram" width="63px" height="63px" href="#">
-                <img src="imagens/4.png" alt="WhatsApp" width="63px" height="63px" href="#">
-                <img src="imagens/5.png" alt="LinkedIn" width="63px" height="63px" href="#">
+
+        <section class="quem-somos">
+            <h2>Quem somos</h2>
+            <p>Somos uma agência de intercâmbio especializada em proporcionar a adultos a oportunidade de aprender um
+                novo idioma viajando ou trabalhando no exterior.<br></p>
+
+            <p>Oferecemos programas completos combinando estudo, trabalho e diversão, em parceria com escolas de idiomas
+                e empresas locais confiáveis.<br></p>
+
+            <p>Nossa missão é proporcionar uma experiência única e transformadora, permitindo que nossos clientes
+                adquiram fluência em um novo idioma enquanto vivenciam uma nova cultura e fazem conexões internacionais
+                valiosas.</p>
+        </section>
+    </main>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h2>Depoimentos</h2>
             </div>
-            <p>&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP 04634-042 São Paulo/SP CNPJ: 02.012.862/0001-60</p>
-    </footer>
-    </body>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+                <figure class="text-end" >
+                    <blockquote class="blockquote">
+                        <p>“Explorei a cidade, visitei pontos turísticos famosos, fiz compras e experimentei a
+                            culinária americana. Melhorei muito meu inglês e fiz amizades com pessoas de várias
+                            partes do mundo”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer" style="color: #F24405;">
+                        <cite title="Source Title">Marcela</cite> 32 anos
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+                <figure class="text-end">
+                    <blockquote class="blockquote">
+                        <p>“Escolhi um programa que combinava aulas de espanhol em Sevilha com
+                            acomodação em
+                            uma casa de família. Adorei a experiência, mergulhando na cultura espanhola, aprendendo
+                            sobre a história
+                            e a arte do país e praticando o espanhol em situações reais”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer" style="color: #F24405;">
+                        <cite title="Source Title">Thaís</cite>, 26 anos
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+                <figure class="text-end">
+                    <blockquote class="blockquote">
+                        <p>“Decidi fazer um intercâmbio para a África do Sul para aprimorar meu
+                            inglês e
+                            conhecer um país cheio de diversidade cultural. A experiência foi transformadora, com
+                            aulas de inglês,
+                            atividades culturais e voluntariado”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer" style="color: #F24405;">
+                        <cite title="Source Title">Felipe</cite>, 29 anos
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center" style="background: #DCFFFB;">
+        <div class="row">
+            <div class="col">
+                <h2>Assine a Newsletter</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nome completo">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="telefone">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <div class="form-check">
+                    <input type="checkbox" value="1" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Li e concordo com os termos
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" style="align-content: center;">
+                <button type="submit" class="btn btn-primary"
+                    style="background-color: #F24405; color: white;">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-6" style="color: #348888; font-weight: bold;">
+                    Parceiros
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <img src="./imagens/mapfre.png" class="img-thumbnail border-0" alt="Logo da Mapfre" width="159em"
+                    height="79em">
+            </div>
+            <div class="col-3">
+                <img src="./imagens/pfizer.png" class="img-thumbnail border-0" alt="Logo da Pfizer" width=159 height=79>
+            </div>
+            <div class="col-3">
+                <img src="./imagens/leeds.png" class="img-thumbnail border-0" alt="Logo da Leads" width=159 height=79>
+            </div>
+            <div class="col-3">
+                <img src="./imagens/nike.png" class="img-thumbnail border-0" alt="Logo da Nike" width=159 height=79>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-6" style="color: #348888; font-weight: bold;">
+                        Siga-nos
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="imagens/1.png" alt="Twitter" width="63px" height="63px" href="#">
+                </div>
+                <div class="col">
+                    <img src="imagens/2.png" alt="Facebook" width="63px" height="63px" href="#">
+                </div>
+                <div class="col">
+                    <img src="imagens/3.png" alt="Instagram" width="63px" height="63px" href="#">
+                </div>
+                <div class="col">
+                    <img src="imagens/4.png" alt="WhatsApp" width="63px" height="63px" href="#">
+                </div>
+                <div class="col">
+                    <img src="imagens/5.png" alt="LinkedIn" width="63px" height="63px" href="#">
+                </div>
+            </div>
+            <div class="col d-flex align-items-center">
+                <span class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP 04634-042
+                    São Paulo/SP CNPJ:
+                    02.012.862/0001-60</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
