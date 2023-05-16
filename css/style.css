@@ -105,7 +105,7 @@ img .cabecalho {
     position: absolute;
     text-align: center;
     z-index: 1;
-    width: 100%;
+    width: 90%;
     top: 30%;
     font-size: 1.2rem;
     font-weight: bold;
@@ -118,7 +118,6 @@ img .cabecalho {
 
 .principais-programas-item:hover {
     background-color: #d43e10;
-    border-radius: 8px;
 }
 
 .principais-programas-item:hover img {
