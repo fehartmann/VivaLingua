@@ -29,7 +29,7 @@ p {
 
 /*---------------Cabeçalho---------------*/
 
-.cabecalho {
+.navbar {
     background-color: #DCFFFB;
     display: flex;
     justify-content: space-between;
@@ -70,6 +70,10 @@ img .cabecalho {
     font-size: 1rem;
 }
 
+.navbar {
+    background-color: #DCFFFB
+}
+ 
 /*---------------Banner---------------*/
 
 .banner {
