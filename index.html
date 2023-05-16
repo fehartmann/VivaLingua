@@ -21,30 +21,31 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
+    <header>
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="./imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
-                    height="96em" />
+                <img src="./imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="150em"
+                    height="150em"/>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button> -->
         </div>
         <div class="container text-end">
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item" aria-current="page">
-                        <a class='nav-link active' style="color: #F24405" href="./index.html">Home</a>
+                        <a class='nav-link' href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class='nav-link' style="color: #F24405" href="./programas/index.html">
+                        <a class='nav-link' href="./programas/index.html">
                             Programas
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./orcamentos/index.html">
+                        <a class="nav-link" href="./orcamento/index.html">
                             Orçamentos
                         </a>
                     </li>
@@ -62,52 +63,54 @@
             </div>
         </div>
     </nav>
+    </header>
+
     <div id="carouselExampleSlidesOnly" class="carousel slide banner" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 img" style="border-radius: 8px;" src="./imagens/Banner-para-site.png"
+                <img class="d-block w-90 img" style="border-radius: 8px;" src="./imagens/Banner-para-site.png"
                     alt="Banner do site">
             </div>
         </div>
-        <button type="button" class="btn btn-primary btn-lg"><a href="/blog/">Saber mais</a></button>
-    </div>
-    <div class="container">
-        <div class="row gx-3">
-            <div class="col">
-                <div class="mb-3">
-                    <h2>Principais programas</h2>
+    </div>    
+    <main>
+        <div class="container">
+            <div class="row gx-3">
+                <div class="col">
+                    <div class="mb-3">
+                        <h2>Principais programas</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="principais-programas-item">
+                        <img src="imagens/amigos-computador.png" class="img-thumbnail rounded mx-auto d-block border-0"
+                            alt="Trabalhar e estudar nos EUA">
+                        <p>Trabalhar e estudar em um College ou Curso Técnico</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="principais-programas-item">
+                        <img src="imagens/mulher-crianca.png" class="img-thumbnail rounded mx-auto d-block border-0"
+                            alt="Imagem de uma mulher com uma criança">
+                        <p>Au pair</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="principais-programas-item">
+                        <img src="imagens/conversa-mulheres.png" class="img-thumbnail border-0"
+                            alt="Imagem com mulheres conversando">
+                        <p>Trabalhar e Estudar nos EUA</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <div class="principais-programas-item">
-                    <img src="imagens/amigos-computador.jpg" class="img-thumbnail rounded mx-auto d-block border-0"
-                        alt="Trabalhar e estudar nos EUA">
-                    <p>Trabalhar e estudar em um College ou Curso Técnico</p>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="principais-programas-item">
-                    <img src="imagens/mulher-crianca.jpg" class="img-thumbnail rounded mx-auto d-block border-0"
-                        alt="Imagem de uma mulher com uma criança">
-                    <p>Au pair</p>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="principais-programas-item">
-                    <img src="imagens/conversa-mulheres.jpg" class="img-thumbnail border-0"
-                        alt="Imagem com mulheres conversando">
-                    <p>Trabalhar e Estudar nos EUA</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
     <div class="container px-1">
         <div class="row gx-3">
             <div class="col">
-                <div class="mb-3">
+                <div class="mb-3 quem-somos">
                     <h2>Quem somos</h2>
                 </div>
             </div>
@@ -145,7 +148,9 @@
             </div>
         </div>
     </div>
+    </main>
 
+    <section class="depoimentos">
     <div class="container px-1">
         <div class="row gx-3">
             <div class="col">
@@ -155,7 +160,7 @@
             </div>
         </div>
         <div class="row gx-3 justify-content-center">
-            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22); margin-right: 2rem;">
                 <figure class="text-end">
                     <blockquote class="blockquote">
                         <p>“Explorei a cidade, visitei pontos turísticos famosos, fiz compras e experimentei
@@ -170,7 +175,7 @@
                 </figure>
             </div>
 
-            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22); margin-right: 2rem;">
                 <figure class="text-end">
                     <blockquote class="blockquote">
                         <p>“Escolhi um programa que combinava aulas de espanhol em Sevilha com
@@ -186,7 +191,7 @@
                 </figure>
             </div>
 
-            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22); margin-right: 2rem;">
                 <figure class="text-end">
                     <blockquote class="blockquote">
                         <p>“Decidi fazer um intercâmbio para a África do Sul para aprimorar meu
@@ -204,7 +209,9 @@
             </div>
         </div>
     </div>
+    </section>
 
+    <section class="newsletter">
     <div class="container" style="background: #DCFFFB;">
         <div class="row">
             <div class="col">
@@ -214,17 +221,17 @@
             </div>
         </div>
         <div class="row gx-2 justify-content-center">
-            <div class="col-4">
+            <div class="col-5">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Nome completo">
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-5">
                 <div class="mb-3">
                     <input type="email" class="form-control" placeholder="E-mail">
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Telefone">
                 </div>
@@ -242,12 +249,14 @@
         </div>
         <div class="row justify-content-center text-center">
             <div class="col">
-                <button type=" submit" class="btn btn-primary" style="background-color: #F24405; color: white;">
+                <button type=" submit" class="btn btn-primary" >
                     Cadastrar</button>
             </div>
         </div>
     </div>
+    </section>
 
+    <section class="parceiros">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -257,12 +266,12 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-2">
+            <div class="col-1">
                 <div class="mb-1">
                     <img src="./imagens/mapfre.png" class="img-thumbnail border-0" alt="Logo da Mapfre">
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-1">
                 <div class="mb-1">
                     <img src="./imagens/pfizer.png" class="img-thumbnail border-0" alt="Logo da Pfizer">
                 </div>
@@ -272,13 +281,16 @@
                     <img src="./imagens/leeds.png" class="img-thumbnail border-0" alt="Logo da Leads">
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-1">
                 <div class="mb-1">
                     <img src="./imagens/nike.png" class="img-thumbnail border-0" alt="Logo da Nike">
                 </div>
             </div>
         </div>
     </div>
+    </section>
+
+<footer class="rodape">
     <div class="container" style="background-color: #DCFFFB;">
         <div class="row">
             <div class="col">
@@ -322,14 +334,15 @@
         <div class="row">
             <div class="col">
                 <div class="mb-1">
-                    <span class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP
+                    <p class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP
                         04634-042
                         São Paulo/SP CNPJ:
-                        02.012.862/0001-60</span>
+                        02.012.862/0001-60</p>
                 </div>
             </div>
         </div>
     </div>
+</footer>
 </body>
 
 </html>
