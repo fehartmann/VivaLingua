@@ -9,7 +9,7 @@ Projeto criado em dupla para o curso de Programação Frontend Web da Jump! Educ
 ## **Status do projeto** ##
 O projeto está em desenvolvimento, conforme o cronograma do curso:
 - [x] 24/04 - Pré-entrega 1: Página 1 e 2 com HTML e CSS
-- [ ] 15/05 - 3 páginas com HTML, CSS, Bootstrap e design responsivo.
+- [x] 15/05 - 3 páginas com HTML, CSS, Bootstrap e design responsivo.
 - [ ] 29/05 - 
 - [ ] 07/06 - 
 - [ ] 28/06 - 
@@ -21,7 +21,7 @@ Projeto do Figma: https://www.figma.com/file/wuhgCafrEZkHmlNrv1DSoN/VivaLingua?n
 Link do VivaLingua: https://fehartmann.github.io/VivaLingua/
 
 ## **Tecnologias utilizadas** ##
-`HTML5` `CSS3` `Javascript` `Bootstrap` `Node.js` 
+`HTML5` `CSS3` `Bootstrap` `Javascript`  
 
 ## **Desenvolvedoras do projeto** ##
 | [<img src="https://user-images.githubusercontent.com/116191544/236593885-dfb85882-651e-4ae0-8194-b3c12eb1b880.jpeg" width=115><br><sub>Beatriz Faia</sub>](https://github.com/biafaia) | [<img src="https://user-images.githubusercontent.com/116191544/236594514-ede9f1ca-ffa0-4ec9-8a48-6c45e7a4fb52.png" width=115><br><sub>Fernanda Hartmann</sub>](https://github.com/fehartmann) | 
