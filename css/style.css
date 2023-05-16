@@ -1,4 +1,17 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #348888;
+    margin-bottom: 1.9rem;
+}
+
+.nav-link {
+    color: #F24405
+}
+
 /*---------------Configurações gerais---------------*/
+
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
