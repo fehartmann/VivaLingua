@@ -22,49 +22,47 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img src="../imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
-                        height="96em" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="../imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
+                    height="96em" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="container text-end">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" aria-current="page">
+                        <a class='nav-link active' style="color: #F24405" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' style="color: #F24405" href="../programas/index.html">
+                            Programas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../orcamentos/index.html">
+                            Orçamentos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link disabled' href="/blog/">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="/quem-somos/">
+                            Quem somos
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item" aria-current="page">
-                            <a class='nav-link' style="color: #F24405" href="../">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link active' style="color: #F24405" href="./index.html">
-                                Programas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../orcamentos/index.html">
-                                Orçamentos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link disabled' href="/blog/">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="/quem-somos/">
-                                Quem somos
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <main class="programas">
         <h2>Conheça nossos programas de intercâmbio</h2>
         <section class="programas-img">
@@ -97,49 +95,107 @@
             </div>
         </section>
     </main>
-    <section class="contato">
-        <h3>Entre em contato conosco</h3>
-        <form class="contato-form">
-            <label>Nome completo:</label><br>
-            <input type="text" required="required" id="txtNome" maxlength="100" size="50"><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-6" style="background: #DCFFFB;">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <h2>Entre em contato conosco</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Nome completo">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Telefone">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"
+                                placeholder="Deixe sua mensagem"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col">
+                        <div class="form-check">
+                            <input type="checkbox" value="1" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Li e concordo com os termos
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <div class="col">
+                        <button type=" submit" class="btn btn-primary" style="background-color: #F24405; color: white;">
+                            Cadastrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mb-3">
+                            <h2>Nossas vantagens</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <img src="../imagens/mala.png" class="img-thumbnail border-0" alt="Ícone de mala">
+                    </div>
+                    <div class="col">
+                        <p>A VivaLingua é responsável por planejar e organizar todo o itinerário, desde a reserva de
+                            voos e
+                            hospedagem até o transporte e as atividades no destino.</p>
+                    </div>
+                </div>
 
-            <label>E-mail:</label><br>
-            <input type="text" required="required" id="txtNome" maxlength="100" size="50"><br><br>
-
-            <label>Telefone:</label><br>
-            <input type="tel" required="required" id="txtCelular" size="50" maxlength="15"><br><br>
-
-            <label id="contato-msg">Deixe sua mensagem:</label><br><br>
-            <textarea cols="50" rows="5" required="required"></textarea><br><br>
-
-            <input id="contato-check" type="checkbox" name="acepta" value="1" />
-            Li e concordo com os termos <br> <br>
-
-            <input id="contato-btn" type="submit" value="Enviar" />
-
-        </form>
-    </section>
-
-    <section class="vantagens">
-        <h2>Nossas vantagens</h2>
-        <div class="vantagens-textos">
-            <img src="../imagens/mala.png" alt="Ícone de mala" width="100px" height="100px">
-            <p>A VivaLingua é responsável por planejar e organizar todo o itinerário, desde a reserva de voos e
-                hospedagem até o transporte e as atividades no destino.</p>
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <img src="../imagens/aviao.png" alt="Ícone de mala" class="img-thumbnail border-0">
+                    </div>
+                    <div class="col">
+                        <p>Fornecemos assistência e suporte ao viajante durante toda a jornada, garantindo maior
+                            segurança e
+                            comodidade. Nós também ajudamos a solucionar problemas imprevistos, como acomodações
+                            inadequadas ou
+                            cancelamentos de voo.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <img src="../imagens/livro.png" alt="Ícone do livro" class="img-thumbnail border-0">
+                    </div>
+                    <div class="col">
+                        <p>Tenha acesso a programas de intercâmbio confiáveis, suporte na escolha do destino e do tipo
+                            de curso, e
+                            assistência em questões como acomodação e documentação necessária.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="vantagens-textos">
-            <img src="../imagens/aviao.png" alt="Ícone de mala" width="100px" height="100px">
-            <p>Fornecemos assistência e suporte ao viajante durante toda a jornada, garantindo maior segurança e
-                comodidade. Nós também ajudamos a solucionar problemas imprevistos, como acomodações inadequadas ou
-                cancelamentos de voo.</p>
-        </div>
-        <div class="vantagens-textos">
-            <img src="../imagens/livro.png" alt="Ícone de mala" width="100px" height="100px">
-            <p>Tenha acesso a programas de intercâmbio confiáveis, suporte na escolha do destino e do tipo de curso, e
-                assistência em questões como acomodação e documentação necessária.</p>
-        </div>
-    </section>
-
+    </div>
 
     <section class="blog">
         <h2>Mais lidos no Blog VivaLingua</h2>
