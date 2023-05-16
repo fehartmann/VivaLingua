@@ -5,9 +5,7 @@ h1 {
     color: #348888;
 }
 
-.nav-link {
-    color: #F24405
-}
+
 
 /*---------------Configurações gerais---------------*/
 
@@ -16,6 +14,7 @@ h2 {
     font-weight: bold;
     font-size: 1.6rem;
     color: #348888;
+    text-align: center;
 }
 
 p {
@@ -28,39 +27,29 @@ p {
 }
 
 /*---------------Cabeçalho---------------*/
-
+header {
+   margin-bottom: 2rem; 
+}
 .navbar {
     background-color: #DCFFFB;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-family: 'Inter', sans-serif;
 }
 
-img .cabecalho {
-    position: absolute;
+.navbar-brand img {
+    margin-left: 6rem;
 }
 
-.cabecalho img {
-    height: 12rem;
+.nav-link {
+    color: #F24405;
 }
 
-.cabecalho-menu {
-    width: 30rem;
-    height: 1.5rem;
-}
-
-.cabecalho-menu ul {
-    list-style: none;
-}
-
-.cabecalho-menu li {
+.nav-item {
     display: inline;
     border-right: #F24405 solid thin;
     padding: 0 0.5rem 0 0.5rem;
 }
 
-.cabecalho-menu li:last-child {
+.nav-item:last-child {
     border-right: none;
 }
 
@@ -75,29 +64,14 @@ img .cabecalho {
 }
  
 /*---------------Banner---------------*/
-
-.banner {
-    display: flex;
-    justify-content: center;
+.carousel-item {
+    margin-top: 1rem;
 }
 
-.banner .btn {
-    position: absolute;
-    align-self: end;
-    background: #348888;
-    border-radius: 27px;
-    border: none;
-}
-
-.banner .btn a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 0.9rem;
-    text-align: center;
-}
+.carousel-item img {
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 /*---------Principais Programas---------*/
 .principais-programas-item {
@@ -109,9 +83,9 @@ img .cabecalho {
     position: absolute;
     text-align: center;
     z-index: 1;
-    width: 90%;
-    top: 30%;
-    font-size: 1.2rem;
+    width: 100%;
+    top: 40%;
+    font-size: 1.3rem;
     font-weight: bold;
     color: white
 }
@@ -131,58 +105,59 @@ img .cabecalho {
 /*---------------Quem Somos---------------*/
 .quem-somos {
     margin-top: 2rem;
-    margin-bottom: 2.8rem;
+    margin-bottom: 2rem;
     text-align: left;
-    margin-left: 4rem;
-    margin-right: 4rem;
 }
 
-.quem-somos p {
-    margin-bottom: 1rem;
+.quem-somos h2 {
+    text-align: left;
+}
+
+main {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 /*---------------Depoimentos---------------*/
-.depoimentos-p {
+.depoimentos h2{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.blockquote p {
     font-family: 'Inter', sans-serif;
     font-style: italic;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.2rem;
     color: #717070;
+    text-align: center;
+    padding: 1rem;
 }
 
-.depoimentos-caixa {
-    background: rgba(251, 228, 206, 0.22);
-}
-
-.depoimentos-nome {
+.blockquote-footer {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
 
     color: #F24405;
+}
+
+.depoimentos {
+    margin-bottom: 2rem;
 }
 
 /*---------------Newsletter---------------*/
-.newsletter-container {
-    width: 60%;
-    height: 12rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-
-    background: #DCFFFB;
-
-    font-family: 'Inter', sans-serif;
-    color: #F24405;
+.newsletter {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-#newsletter-titulo {
-    position: absolute;
+.newsletter h2 {
     margin-top: 1.3rem;
-    margin-left: 1rem;
+    margin-left: 0.4rem;
 
     font-weight: 600;
     font-size: 1.5rem;
@@ -191,57 +166,38 @@ img .cabecalho {
     color: #F24405;
 }
 
-.newsletter-dados {
-    position: absolute;
-    margin-top: 4rem;
-    margin-left: 1rem;
-}
-
-.newsletter-dados input {
+.form-control {
     font-size: 1rem;
     color: #373737;
+    font-family: 'Inter', sans-serif;
 
     border: none;
     height: 2rem;
 }
 
-#inputNome {
-    width: 20rem;
-}
-
-#inputEmail {
-    width: 16rem;
-}
-
-#inputTel {
-    width: 11rem;
-}
-
-::placeholder {
+.newsletter ::placeholder {
     color: #F24405;
     text-align: start;
+    font-family: 'Inter', sans-serif;
     font-size: 0.6rem;
 }
 
-.newsletter-termos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.form-check {
+    font-size: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    color: #F24405;
+    
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
 }
 
-.newsletter-p {
-    font-size: 0.7rem;
-    color: #F24405;
-}
-
-#newsletter-btn {
-    position: absolute;
-    width: 10rem;
+.btn-primary {
+        width: 10rem;
     height: 2.6rem;
-    margin-top: 4.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Inter', sans-serif;
 
     background: #FA7F08;
     border-radius: 9px;
@@ -256,8 +212,8 @@ img .cabecalho {
 /*---------------Parceiros---------------*/
 .parceiros {
     left: 4rem;
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -266,22 +222,18 @@ img .cabecalho {
     justify-content: space-around;
 }
 
-
-/*----------Responsividade---------*/
-
-
 /*---------PÁGINA PROGRAMAS--------*/
 /*------------Programas------------*/
 
 .programas {
     text-align: center;
-    margin-top: 41px;
+    margin-top: 2.5rem;
     position: relative;
-    /* margin-bottom: 31px;   */
+    flex-wrap: wrap;
 }
 
 .programas h2 {
-    margin-bottom: 41px;
+    margin-bottom: 2.5rem;
     text-align: center;
     margin-left: 0px;
 }
@@ -291,7 +243,7 @@ img .cabecalho {
     justify-content: center;
     flex-direction: row;
 
-    gap: 60px;
+    gap: 3.5rem;
     align-items: center;
 
     position: relative;
@@ -304,9 +256,7 @@ img .cabecalho {
 
 .programas-item img {
     border-radius: 18px;
-    margin-bottom: 31px;
-    width: 330px;
-    height: 300px;
+    
 }
 
 .programas-item p {
@@ -315,9 +265,10 @@ img .cabecalho {
     z-index: 1;
     text-align: center;
     width: 100%;
-    top: 50%;
-    font-size: 20px;
-    color: white
+    top: 45%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
 }
 
 .programas-item:hover p {
@@ -334,134 +285,91 @@ img .cabecalho {
 
 /*---------------Entre em contato-------------*/
 
-.contato {
+/* .contato {
     background: #DCFFFB;
-    border-radius: 20px;
+    border-radius: 18px;
     text-align: left;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-left: 4rem;
+    margin-right: 4rem;
     display: inline-block;
-    width: 50%;
-    height: 600px;
-}
+    width: 45%;
+    height: 37rem;
+} */
 
-.contato h3 {
-    font-family: 'Inter';
-    font-style: normal;
+.contato--vantagens h2 {
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: left;
-    margin-bottom: 25px;
-    margin-left: 21px;
+    margin-top: 1rem;
 
+    color: #348888;
+}
+
+.contato--vantagens ::placeholder {
     color: #F24405;
+    text-align: start;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
 }
 
-.contato-form {
-    font-family: Inter;
-    font-size: 13px;
-    color: #F24405;
-    margin-left: 21px;
-}
-
-#contato-msg {
-    font-weight: 800;
-}
-
-#contato-check {
-    font-family: Inter;
-    font-style: normal;
-    font-size: 13px;
-    color: #F24405;
-}
-
-#contato-btn {
-    position: absolute;
-    background: #FA7F08;
-    border-radius: 9px;
-    border: none;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-/*---------------Vantagens---------------*/
-.vantagens {
-    display: inline-block;
-    margin-right: 64px;
-    height: 600px;
-    position: absolute;
-    width: 50%;
-    height: 50%;
-}
-
-.vantagens h2 {
-    text-align: center;
-
-    font-size: 20px;
-    position: absolute;
-}
-
-.vantagens-textos img {
-    /* position: relative; */
-    /* display: flex; */
-    margin-top: 80px;
-}
-
-.vantagens-textos {
-    text-align: left;
-    display: flex;
-    margin-right: 64px;
-}
-
-.vantagens-textos p {
-    left: 145px;
-    width: 273px;
-    height: 132px;
-    margin-top: 80px;
-
-    font-family: 'Inter';
+.contato--vantagens p {
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 22px;
-    gap: 5em;
-
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: justify;
     color: #717070;
+
+    height: 6rem;
+    margin-top: 1rem;
 }
 
 /*---------------Blog---------------*/
 .blog {
-
     text-align: center;
 }
 
 .blog h2 {
-    text-align: left;
-    margin-left: 64px;
-    margin-top: 31px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .blog-imagens {
     display: inline-block;
-    margin-right: 54px;
-    margin-bottom: 71px;
+    margin-right: 4rem;
+    margin-bottom: 5rem;
 }
 
 .blog-imagens p {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 0.9rem;
 
     color: #F24405;
 }
 
+/*---------PÁGINA ORCAMENTO--------*/
+/*------------Orçamento------------*/
+.orcamento {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.orcamento h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.form-select {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #373737;
+}
 
 /*---------------Rodapé---------------*/
 footer h2 {
@@ -480,21 +388,13 @@ footer {
     top: 2267px;
 }
 
-footer p {
-    align-content: flex-end;
-    font-family: 'Inter';
+.rodape p {
+    color: #348888; 
+    text-align: center;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-
-    color: #348888;
+    font-size: 1rem;
+    margin-top: 1rem; 
 }
 
-.imagens-rodape {
-    display: flex;
-    flex-direction: row;
-    left: 469px;
-    margin-bottom: 50px;
-}

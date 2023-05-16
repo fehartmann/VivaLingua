@@ -23,11 +23,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img src="../imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
-                        height="96em" />
+                    <img src="../imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="150em"
+                        height="150em" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +46,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">
+                            <a class="nav-link" href="../orcamentos/index.html">
                                 Orçamentos
                             </a>
                         </li>
@@ -64,155 +64,181 @@
                 </div>
             </div>
         </nav>
+
     </header>
-    <div class="container-fluid px-1 text-center">
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="mb-3">
-                    <h1>Faça seu orçamento</h1>
+    <section class="orcamento">
+        <div class="container-fluid px-1 text-center">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <h1>Faça seu orçamento</h1>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid px-1 text-center" style="background: rgba(251, 228, 206, 0.22);">
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="mb-3">
-                    <h2 style="color:#F24405">Dados pessoais</h2>
+        <div class="container-fluid px-1 text-center"
+            style="background: rgba(251, 228, 206, 0.22); border-radius: 20px;">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <h2 style="color:#F24405">Dados pessoais</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Nome completo">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nome completo">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Data de Nascimento">
+                    </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Data de Nascimento">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="E-mail">
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <div class="mb-3">
-                    <input type="email" class="form-control" placeholder="E-mail">
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="telefone">
-                </div>
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-            <div class="col">
-                <div class="mb-3">
-                    <h2 style="color:#F24405">Dados da Viagem</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <div class="mb-3">
-                    <select class="form-select" aria-label="Selecione um destino">
-                        <option selected>Destino 1</option>
-                        <option value="1">Destino 2</option>
-                        <option value="2">Destino 3</option>
-                        <option value="3">Destino 4</option>
-                    </select>
+                <div class="col-3">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Telefone">
+                    </div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="mb-3">
-                    <select class="form-select" aria-label="Selecione um programa">
-                        <option selected>Programa 1</option>
-                        <option value="1">Programa 2</option>
-                        <option value="2">Programa 3</option>
-                        <option value="3">Programa 4</option>
-                    </select>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="mb-3">
+                        <h2 style="color:#F24405">Dados da Viagem</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-3">
-                <div class="mb-3">
-                    <select class="form-select" aria-label="Data da ida">
-                        <option selected>Data 1</option>
-                        <option value="1">Data 2</option>
-                        <option value="2">Data 3</option>
-                        <option value="3">Data 4</option>
-                    </select>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Selecione um destino">
+                            <option selected>Destino 1</option>
+                            <option value="1">Destino 2</option>
+                            <option value="2">Destino 3</option>
+                            <option value="3">Destino 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Selecione um programa">
+                            <option selected>Programa 1</option>
+                            <option value="1">Programa 2</option>
+                            <option value="2">Programa 3</option>
+                            <option value="3">Programa 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Data da ida">
+                            <option selected>Data 1</option>
+                            <option value="1">Data 2</option>
+                            <option value="2">Data 3</option>
+                            <option value="3">Data 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Duração do programa. Ex: 1 ano">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Deixe sua mensagem"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="form-check">
+                        <input type="checkbox" value="1" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Li e concordo com os termos
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary"
+                            style="background-color: #F24405; color: white;">Cadastrar</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-3">
-                <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="Duração do programa. Ex: 1 ano">
-                </div>
-            </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <div class="mb-3">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                        placeholder="Deixe sua mensagem"></textarea>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <div class="form-check">
-                    <input type="checkbox" value="1" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        Li e concordo com os termos
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-6">
-                <div class="mb-3">
-                    <button type="submit" class="btn btn-primary"
-                        style="background-color: #F24405; color: white;">Cadastrar</button>
-                </div>
-            </div>
-        </div>
+    </section>
 
-    </div>
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <h1 class="display-6" style="color: #348888; font-weight: bold;">
-                    Siga-nos
-                </h1>
+    <footer class="rodape">
+        <div class="container" style="background-color: #DCFFFB;">
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <h2> Siga-nos </h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col">
-                <img src="../imagens/1.png" alt="Twitter" width="63px" height="63px" href="#">
+            <div class="row justify-content-center">
+                <div class="col-1">
+                    <div class="mb-1">
+                        <img src="../imagens/1.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                            alt="Twitter" href="#">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="mb-1">
+                        <img src="../imagens/2.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                            alt="Facebook" href="#">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="mb-1">
+                        <img src="../imagens/3.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                            alt="Instagram" href="#">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="mb-1">
+                        <img src="../imagens/4.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                            alt="WhatsApp" href="#">
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="mb-1">
+                        <img src="../imagens/5.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                            alt="LinkedIn" href="#">
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <img src="../imagens/2.png" alt="Facebook" width="63px" height="63px" href="#">
+            <div class="row">
+                <div class="col">
+                    <div class="mb-1">
+                        <p class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP
+                            04634-042
+                            São Paulo/SP CNPJ:
+                            02.012.862/0001-60</p>
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <img src="../imagens/3.png" alt="Instagram" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="../imagens/4.png" alt="WhatsApp" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="../imagens/5.png" alt="LinkedIn" width="63px" height="63px" href="#">
-            </div>
-        </div>
-        <div class="col d-flex align-items-center">
-            <span class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP 04634-042
-                São Paulo/SP CNPJ:
-                02.012.862/0001-60</span>
         </div>
     </footer>
 </body>
