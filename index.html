@@ -21,49 +21,47 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img src="./imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
-                        height="96em" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar navbar-expand-lg" style="background-color: #DCFFFB">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="./imagens/Logo-Agencia-de-Viagens.png" alt="Imagem da logomarca" width="110em"
+                    height="96em" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="container text-end">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item" aria-current="page">
+                        <a class='nav-link active' style="color: #F24405" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link' style="color: #F24405" href="/programas/index.html">
+                            Programas
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/orcamentos/index.html">
+                            Orçamentos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class='nav-link disabled' href="/blog/">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="/quem-somos/">
+                            Quem somos
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item" aria-current="page">
-                            <a class='nav-link active' style="color: #F24405" href="./">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link' style="color: #F24405" href="/programas/">
-                                Programas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/orcamentos/">
-                                Orçamentos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link disabled' href="/blog/">
-                                Blog
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="/quem-somos/">
-                                Quem somos
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide banner" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -73,51 +71,97 @@
         </div>
         <button type="button" class="btn btn-primary btn-lg"><a href="/blog/">Saber mais</a></button>
     </div>
-    <main>
-        <section class="principais-programas">
-            <h2 id="principais-programas-titulo">Principais programas</h2>
-            <div class="principais-programas-img">
+    <div class="container">
+        <div class="row gx-3">
+            <div class="col">
+                <div class="mb-3">
+                    <h2>Principais programas</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-3">
                 <div class="principais-programas-item">
-                    <img src="imagens/amigos-computador.jpg" alt="Trabalhar e estudar nos EUA">
+                    <img src="imagens/amigos-computador.jpg" class="img-thumbnail rounded mx-auto d-block border-0"
+                        alt="Trabalhar e estudar nos EUA">
                     <p>Trabalhar e estudar em um College ou Curso Técnico</p>
                 </div>
+            </div>
+            <div class="col-2">
                 <div class="principais-programas-item">
-                    <img src="imagens/mulher-crianca.jpg" alt="Imagem de uma mulher com uma criança">
+                    <img src="imagens/mulher-crianca.jpg" class="img-thumbnail rounded mx-auto d-block border-0"
+                        alt="Imagem de uma mulher com uma criança">
                     <p>Au pair</p>
                 </div>
+            </div>
+            <div class="col-3">
                 <div class="principais-programas-item">
-                    <img src="imagens/conversa-mulheres.jpg" alt="Imagem com mulheres conversando">
+                    <img src="imagens/conversa-mulheres.jpg" class="img-thumbnail border-0"
+                        alt="Imagem com mulheres conversando">
                     <p>Trabalhar e Estudar nos EUA</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <section class="quem-somos">
-            <h2>Quem somos</h2>
-            <p>Somos uma agência de intercâmbio especializada em proporcionar a adultos a oportunidade de aprender um
-                novo idioma viajando ou trabalhando no exterior.<br></p>
-
-            <p>Oferecemos programas completos combinando estudo, trabalho e diversão, em parceria com escolas de idiomas
-                e empresas locais confiáveis.<br></p>
-
-            <p>Nossa missão é proporcionar uma experiência única e transformadora, permitindo que nossos clientes
-                adquiram fluência em um novo idioma enquanto vivenciam uma nova cultura e fazem conexões internacionais
-                valiosas.</p>
-        </section>
-    </main>
-
-    <div class="container-fluid text-center">
-        <div class="row">
+    <div class="container px-1">
+        <div class="row gx-3">
             <div class="col">
-                <h2>Depoimentos</h2>
+                <div class="mb-3">
+                    <h2>Quem somos</h2>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+        <div class="row gx-3 justify-content-center">
+            <div class="col">
+                <div class="mb-3">
+                    <p>Somos uma agência de intercâmbio especializada em proporcionar a adultos a oportunidade
+                        de
+                        aprender
+                        um
+                        novo idioma viajando ou trabalhando no exterior.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-3 justify-content-center">
+            <div class="col">
+                <div class="mb-3">
+                    <p>Oferecemos programas completos combinando estudo, trabalho e diversão, em parceria com
+                        escolas de
+                        idiomas
+                        e empresas locais confiáveis.<br></p>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-3 justify-content-center">
+            <div class="col">
+                <div class="mb-3">
+                    <p>Nossa missão é proporcionar uma experiência única e transformadora, permitindo que nossos
+                        clientes
+                        adquiram fluência em um novo idioma enquanto vivenciam uma nova cultura e fazem conexões
+                        internacionais
+                        valiosas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-1">
+        <div class="row gx-3">
+            <div class="col">
+                <div class="mb-3">
+                    <h2>Alguns depoimentos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row gx-3 justify-content-center">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
                 <figure class="text-end">
                     <blockquote class="blockquote">
-                        <p>“Explorei a cidade, visitei pontos turísticos famosos, fiz compras e experimentei a
-                            culinária americana. Melhorei muito meu inglês e fiz amizades com pessoas de várias
+                        <p>“Explorei a cidade, visitei pontos turísticos famosos, fiz compras e experimentei
+                            a
+                            culinária americana. Melhorei muito meu inglês e fiz amizades com pessoas de
+                            várias
                             partes do mundo”</p>
                     </blockquote>
                     <figcaption class="blockquote-footer" style="color: #F24405;">
@@ -126,12 +170,13 @@
                 </figure>
             </div>
 
-            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
                 <figure class="text-end">
                     <blockquote class="blockquote">
                         <p>“Escolhi um programa que combinava aulas de espanhol em Sevilha com
                             acomodação em
-                            uma casa de família. Adorei a experiência, mergulhando na cultura espanhola, aprendendo
+                            uma casa de família. Adorei a experiência, mergulhando na cultura espanhola,
+                            aprendendo
                             sobre a história
                             e a arte do país e praticando o espanhol em situações reais”</p>
                     </blockquote>
@@ -141,12 +186,14 @@
                 </figure>
             </div>
 
-            <div class="col-xs-12 col-md-6 col-lg-4" style="background-color:rgba(251, 228, 206, 0.22)">
+            <div class="col-3" style="background-color:rgba(251, 228, 206, 0.22)">
                 <figure class="text-end">
                     <blockquote class="blockquote">
                         <p>“Decidi fazer um intercâmbio para a África do Sul para aprimorar meu
                             inglês e
-                            conhecer um país cheio de diversidade cultural. A experiência foi transformadora, com
+                            conhecer um país cheio de diversidade cultural. A experiência foi
+                            transformadora,
+                            com
                             aulas de inglês,
                             atividades culturais e voluntariado”</p>
                     </blockquote>
@@ -158,13 +205,15 @@
         </div>
     </div>
 
-    <div class="container-fluid text-center" style="background: #DCFFFB;">
+    <div class="container" style="background: #DCFFFB;">
         <div class="row">
             <div class="col">
-                <h2>Assine a Newsletter</h2>
+                <div class="mb-3">
+                    <h2>Assine a Newsletter</h2>
+                </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row gx-2 justify-content-center">
             <div class="col-4">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Nome completo">
@@ -177,12 +226,12 @@
             </div>
             <div class="col-4">
                 <div class="mb-3">
-                    <input type="text" class="form-control" placeholder="telefone">
+                    <input type="text" class="form-control" placeholder="Telefone">
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-auto">
+        <div class="row justify-content-center text-center">
+            <div class="col">
                 <div class="form-check">
                     <input type="checkbox" value="1" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
@@ -191,69 +240,96 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12" style="align-content: center;">
-                <button type="submit" class="btn btn-primary"
-                    style="background-color: #F24405; color: white;">Cadastrar</button>
+        <div class="row justify-content-center text-center">
+            <div class="col">
+                <button type=" submit" class="btn btn-primary" style="background-color: #F24405; color: white;">
+                    Cadastrar</button>
             </div>
         </div>
     </div>
 
-    <div class="container text-center">
+    <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1 class="display-6" style="color: #348888; font-weight: bold;">
-                    Parceiros
-                </h1>
+            <div class="col">
+                <div class="mb-3">
+                    <h2> Parceiros </h1>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-3">
-                <img src="./imagens/mapfre.png" class="img-thumbnail border-0" alt="Logo da Mapfre" width="159em"
-                    height="79em">
+        <div class="row justify-content-center">
+            <div class="col-2">
+                <div class="mb-1">
+                    <img src="./imagens/mapfre.png" class="img-thumbnail border-0" alt="Logo da Mapfre">
+                </div>
             </div>
-            <div class="col-3">
-                <img src="./imagens/pfizer.png" class="img-thumbnail border-0" alt="Logo da Pfizer" width=159 height=79>
+            <div class="col-2">
+                <div class="mb-1">
+                    <img src="./imagens/pfizer.png" class="img-thumbnail border-0" alt="Logo da Pfizer">
+                </div>
             </div>
-            <div class="col-3">
-                <img src="./imagens/leeds.png" class="img-thumbnail border-0" alt="Logo da Leads" width=159 height=79>
+            <div class="col-2">
+                <div class="mb-1">
+                    <img src="./imagens/leeds.png" class="img-thumbnail border-0" alt="Logo da Leads">
+                </div>
             </div>
-            <div class="col-3">
-                <img src="./imagens/nike.png" class="img-thumbnail border-0" alt="Logo da Nike" width=159 height=79>
+            <div class="col-2">
+                <div class="mb-1">
+                    <img src="./imagens/nike.png" class="img-thumbnail border-0" alt="Logo da Nike">
+                </div>
             </div>
         </div>
     </div>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="display-6" style="color: #348888; font-weight: bold;">
-                    Siga-nos
-                </h1>
-            </div>
-        </div>
+    <div class="container" style="background-color: #DCFFFB;">
         <div class="row">
             <div class="col">
-                <img src="imagens/1.png" alt="Twitter" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="imagens/2.png" alt="Facebook" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="imagens/3.png" alt="Instagram" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="imagens/4.png" alt="WhatsApp" width="63px" height="63px" href="#">
-            </div>
-            <div class="col">
-                <img src="imagens/5.png" alt="LinkedIn" width="63px" height="63px" href="#">
+                <div class="mb-3">
+                    <h2> Siga-nos </h2>
+                </div>
             </div>
         </div>
-        <div class="col d-flex align-items-center">
-            <span class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP 04634-042
-                São Paulo/SP CNPJ:
-                02.012.862/0001-60</span>
+        <div class="row justify-content-center">
+            <div class="col-1">
+                <div class="mb-1">
+                    <img src="imagens/1.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                        alt="Twitter" href="#">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-1">
+                    <img src="imagens/2.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                        alt="Facebook" href="#">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-1">
+                    <img src="imagens/3.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                        alt="Instagram" href="#">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-1">
+                    <img src="imagens/4.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                        alt="WhatsApp" href="#">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-1">
+                    <img src="imagens/5.png" class="img-thumbnail border-0" style="background-color: #DCFFFB;"
+                        alt="LinkedIn" href="#">
+                </div>
+            </div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col">
+                <div class="mb-1">
+                    <span class="text-muted">&copy; 2023 VivaLingua Ltda Rua Ática nº 673, 6º andar sala 62, CEP
+                        04634-042
+                        São Paulo/SP CNPJ:
+                        02.012.862/0001-60</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

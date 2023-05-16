@@ -3,7 +3,6 @@ h1 {
     font-weight: bold;
     font-size: 1.6rem;
     color: #348888;
-    margin-bottom: 1.9rem;
 }
 
 .nav-link {
@@ -17,7 +16,6 @@ h2 {
     font-weight: bold;
     font-size: 1.6rem;
     color: #348888;
-    margin-bottom: 1.9rem;
 }
 
 p {
@@ -98,27 +96,6 @@ img .cabecalho {
 }
 
 /*---------Principais Programas---------*/
-.principais-programas {
-    text-align: center;
-    position: relative;
-}
-
-#principais-programas-titulo {
-    text-align: center;
-}
-
-.principais-programas-img {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.principais-programas-img img {
-    width: 15rem;
-    height: 11rem;
-    border-radius: 8px;
-}
-
 .principais-programas-item {
     position: relative;
 }
