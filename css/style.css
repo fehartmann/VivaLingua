@@ -1,13 +1,11 @@
+/*---------------Configurações gerais---------------*/
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.6rem;
     color: #348888;
 }
-
-
-
-/*---------------Configurações gerais---------------*/
 
 h2 {
     font-family: 'Montserrat', sans-serif;
@@ -56,7 +54,7 @@ header {
 .navbar {
     background-color: #DCFFFB
 }
- 
+
 /*---------------Banner---------------*/
 .carousel-item {
     margin-top: 1rem;
@@ -103,7 +101,7 @@ header {
 /*---------------Quem Somos---------------*/
 .quem-somos {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     text-align: left;
 }
 
@@ -113,13 +111,14 @@ header {
 
 main {
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 /*---------------Depoimentos---------------*/
 .depoimentos h2{
     text-align: left;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 .blockquote p {
@@ -149,8 +148,7 @@ main {
 
 /*---------------Newsletter---------------*/
 .newsletter {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem auto 2rem auto;
 }
 
 .newsletter h2 {
@@ -217,7 +215,13 @@ main {
 
 .parceiros-imagens {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 20%;
+    height: 30%
+}
+.leeds {
+    height: 40%;
+    width: 40%;
 }
 
 /*---------PÁGINA PROGRAMAS--------*/
@@ -241,10 +245,8 @@ main {
     justify-content: center;
     flex-direction: row;
 
-    gap: 3.5rem;
+    gap: 1rem;
     align-items: center;
-
-    position: relative;
 }
 
 .programas-item {
@@ -254,7 +256,7 @@ main {
 
 .programas-item img {
     border-radius: 18px;
-    
+
 }
 
 .programas-item p {
@@ -337,7 +339,7 @@ main {
 .blog-imagens {
     display: inline-block;
     margin-right: 4rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .blog-imagens p {
@@ -386,6 +388,11 @@ footer {
     top: 2267px;
 }
 
+.rodape-icones {
+    width: 8%;
+    height: 8%;
+}
+
 .rodape p {
     color: #348888; 
     text-align: center;
@@ -396,3 +403,26 @@ footer {
     margin-top: 1rem; 
 }
 
+@media screen and (max-width: 768px) {
+   .navbar-brand img {
+    margin-left: 1rem;
+} 
+    .principais-programas-item p {
+    width: 80%;
+    font-size: 0.8rem;
+}
+    .quem-somos h2 {
+    text-align: center;
+}
+    .depoimentos h2 {
+    text-align: center;
+    }
+    .depoimentos {
+    margin-top: 1rem;
+}
+    .rodape-icones {
+    width: 15%;
+    height: 15%;
+}
+      
+}
