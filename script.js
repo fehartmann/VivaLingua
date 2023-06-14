@@ -1,6 +1,6 @@
 // Banco 1: Newsletter
 
-let newsletter = [
+const newsletter = [
     {
     nomeCompleto: "Fernanda Hartmann",
     email: "fhartmann@gmail.com",
@@ -25,7 +25,7 @@ console.log("Pessoas cadastradas na Newsletter: " + newsletter)
 
 // Banco 2: Formulário
 
-let formulario = [
+const formulario = [
     {
     nomeCompleto: "Fernanda Hartmann",
     email: "nomecompleto@gmail.com",
@@ -51,7 +51,7 @@ console.log("Pedidos de contato via formulário " + formulario)
 
 // Banco 3: Programas
 
-let programas = [
+const programas = [
     {
         nome: "Trabalhar nos EUA",
         idioma: "Inglês",
@@ -123,7 +123,7 @@ console.log("Programas disponíveis: " + programas)
 
 // Banco 4: Blog
 
-let blog = [
+const blog = [
     {
         titulo: "Passo a passo para tirar o seu passaporte",
         imagem: "https://fehartmann.github.io/VivaLingua/imagens/documentos-para-tirar-passaporte-blog-ua-br.jpg",
@@ -157,7 +157,7 @@ console.log("Posts do blog VivaLíngua: " + blog)
 
 // Banco 5: Formulário Orçamentos
 
-let orcamento = [
+const orcamento = [
     {
         nome: "Fernanda Hartmann",
         email: "fhartmann@gmail.com",
