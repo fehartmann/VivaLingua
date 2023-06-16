@@ -8,22 +8,23 @@ const newsletter = [
     }
 ]
 
-function novoCadastro (nomeCadastro, emailCadastro, telefoneCadastro) {
+function cadastro (nomeCompleto, email, telefone) {
     return {
-        nomeCompleto: nomeCadastro,
-        email: emailCadastro,
-        telefone: telefoneCadastro,
-    }
+        nomeCompleto : nomeCompleto,
+        email : email,
+        telefone : telefone
+    }    
 }
 
-function adicionarCadastro (nomeCadastro, emailCadastro, telefoneCadastro, array) {
-    array.push(novoCadastro(nomeCadastro, emailCadastro, telefoneCadastro))
+function adicionar (nomeCompleto, email, telefone, array) {
+    array.push(cadastro (nomeCompleto, email, telefone))
 }
 
-adicionarCadastro("Anne Beatriz Martins", "anneb@gmail.com", "(81)88888-8888", newsletter)
-console.log("Pessoas cadastradas na Newsletter: " + newsletter)
+// adicionar("Anne Beatriz", "bm@gmail.com", "99989-8888", newsletter)
+// adicionar("Marina souza", "marina@gmail.com", "98888-6666", newsletter)
+// console.log("Cadastros na Newsletter ", newsletter)
 
-// Banco 2: Formulário
+// Banco 2: Formulário--------------------------
 
 const formulario = [
     {
@@ -34,22 +35,22 @@ const formulario = [
     }
 ]
 
-function novoContato (nomeContato, emailContato, telefoneContato, mensagemContato) {
+function novoContato (nomeCompleto, email, telefone, mensagem) {
     return {
-        nomeCompleto: nomeContato,
-        email: emailContato,
-        telefone: telefoneContato,
-        mensagem: mensagemContato
+        nomeCompleto: nomeCompleto,
+        email: email,
+        telefone: telefone,
+        mensagem: mensagem
     }
 }
 
-function adicionarContato (nomeContato, emailContato, telefoneContato, mensagemContato, array) {
-    array.push(novoContato (nomeContato, emailContato, telefoneContato, mensagemContato))
+function adicionarContato (nomeCompleto, email, telefone, mensagem, array) {
+    array.push(novoContato (nomeCompleto, email, telefone, mensagem))
 }
 
-console.log("Pedidos de contato via formulário " + formulario)
+// console.log("Pedidos de contato via formulário ", formulario)
 
-// Banco 3: Programas
+// Banco 3: Programas--------------------------
 
 const programas = [
     {
@@ -102,26 +103,26 @@ const programas = [
     }
 ]
 
-function novoPrograma (nomePrograma, idiomaPrograma, paisPrograma, duracaoPrograma, valorPrograma, sobrePrograma) {
+function novoPrograma (nomePrograma, idioma, pais, duracao, valor, sobre) {
     return {
-        nome: nomePrograma,
-        idioma: idiomaPrograma,
-        pais: paisPrograma,
-        duracao: duracaoPrograma,
-        valor: valorPrograma,
-        sobre: sobrePrograma
+        nomePrograma: nomePrograma,
+        idioma: idioma,
+        pais: pais,
+        duracao: duracao,
+        valor: valor,
+        sobre: sobre
     }
 }
 
-function adicionarPrograma (nomePrograma, idiomaPrograma, paisPrograma, duracaoPrograma, valorPrograma, sobrePrograma, array) {
-    array.push(novoPrograma (nomePrograma, idiomaPrograma, paisPrograma, duracaoPrograma, valorPrograma, sobrePrograma))
+function adicionarPrograma (nomePrograma, idioma, pais, duracao, valor, sobre, array) {
+    array.push(novoPrograma (nomePrograma, idioma, pais, duracao, valor, sobre))
 }
 
-adicionarPrograma ("Imersão em inglês", "Inglês", ["EUA", "Itália", "Inglaterra", "Canadá"], "6 meses", 10000.00, "Sed laoreet nibh at tellus elementum, nec interdum leo ullamcorper. Sed non augue pellentesque, facilisis risus sit amet, tincidunt magna. Phasellus id leo eros. Fusce accumsan, mi bibendum aliquam ultricies, risus quam egestas turpis, eget auctor erat est quis est. Proin volutpat et quam sit amet facilisis. Suspendisse hendrerit urna eros, et semper mauris aliquet eget.", programas)
+// adicionarPrograma ("Imersão em inglês", "Inglês", ["EUA", "Itália", "Inglaterra", "Canadá"], "6 meses", 10000.00, "Sed laoreet nibh at tellus elementum, nec interdum leo ullamcorper. Sed non augue pellentesque, facilisis risus sit amet, tincidunt magna. Phasellus id leo eros. Fusce accumsan, mi bibendum aliquam ultricies, risus quam egestas turpis, eget auctor erat est quis est. Proin volutpat et quam sit amet facilisis. Suspendisse hendrerit urna eros, et semper mauris aliquet eget.", programas)
 
-console.log("Programas disponíveis: " + programas)
+// console.log("Programas disponíveis: ", programas)
 
-// Banco 4: Blog
+// Banco 4: Blog--------------------------
 
 const blog = [
     {
@@ -141,21 +142,21 @@ const blog = [
     }
 ]
 
-function novoPost (tituloPost, imagemPost, textoPost) {
+function novoPost (tituloPost, imagem, texto) {
     return {
         titulo: tituloPost,
-        imagem: imagemPost,
-        texto: textoPost
+        imagem: imagem,
+        texto: texto
     }
 }
 
-function adicionarPost (tituloPost, imagemPost, textoPost, array) {
-    array.push(novoPost (tituloPost, imagemPost, textoPost))
+function adicionarPost (tituloPost, imagem, texto, array) {
+    array.push(novoPost (tituloPost, imagem, texto))
 }
 
-console.log("Posts do blog VivaLíngua: " + blog)
+// console.log("Posts do blog VivaLíngua: ", blog)
 
-// Banco 5: Formulário Orçamentos
+// Banco 5: Formulário Orçamentos----------------------------------
 
 const orcamento = [
     {
@@ -171,22 +172,22 @@ const orcamento = [
     }
 ]
 
-function novoOrcamento (nomeForm, emailForm, dataNasctoForm, telefoneForm, destinoForm, dataForm, programaForm, duracaoForm, mensagemForm) {
+function novoOrcamento (nome, email, dataNascto, telefone, destino, data, programa, duracao, mensagem) {
     return {
-        nome: nomeForm,
-        email: emailForm,
-        dataNascimento: dataNasctoForm,
-        telefone: telefoneForm,
-        destino: [destinoForm],
-        data: [dataForm],
-        programa: [programaForm],
-        duracao: duracaoForm,
-        mensagem: mensagemForm
+        nome: nome,
+        email: email,
+        dataNascimento: dataNascto,
+        telefone: telefone,
+        destino: [destino],
+        data: [data],
+        programa: [programa],
+        duracao: duracao,
+        mensagem: mensagem
     }
 }
 
-function adicionarOrcamento (nomeForm, emailForm, dataNasctoForm, telefoneForm, destinoForm, dataForm, programaForm, duracaoForm, mensagemForm, array) {
-    array.push(novoOrcamento (nomeForm, emailForm, dataNasctoForm, telefoneForm, destinoForm, dataForm, programaForm, duracaoForm, mensagemForm))
+function adicionarOrcamento (nome, email, dataNascto, telefone, destino, data, programa, duracao, mensagem, array) {
+    array.push(novoOrcamento (nome, email, dataNascto, telefone, destino, data, programa, duracao, mensagem))
 }
 
-console.log("Solicitações de orçamento: " + orcamento)
+// console.log("Solicitações de orçamento: ", orcamento)
