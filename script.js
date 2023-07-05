@@ -191,3 +191,26 @@ function adicionarOrcamento (nome, email, dataNascto, telefone, destino, data, p
 }
 
 // console.log("Solicitações de orçamento: ", orcamento)
+
+// Transformando em JSON
+function conversao (array) {
+    const jsonData = JSON.stringify(array)
+    console.log(jsonData)
+}
+
+conversao(newsletter)
+conversao(formulario)
+conversao(programas)
+conversao(blog)
+conversao(orcamento)
+
+//Inserindo dados no LocalStorage
+let keyLocalStorage = document.querySelector('.nome')
+localStorage.setItem(nome, keyLocalStorage)
+
+//Interatividade na página
+let botaoCadastrar = document.querySelector('.btn')
+botaoCadastrar.onclick = function() {
+    alert('Formulário enviado com sucesso!')
+}
+
