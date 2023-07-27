@@ -7,7 +7,7 @@ Site de viagens para intercâmbio
 Projeto criado em dupla para o curso de Programação Frontend Web da Jump! Educación em parceria com a Nearsure. O projeto consiste em criar um site com 5 páginas utilizando HTML5, CSS3, Bootstrap e Javascript. A versão final deve ter acesso web, com design responsivo e deve estar num repositório Github público.
 
 ## **Status do projeto** ##
-O projeto está em desenvolvimento, conforme o cronograma do curso:
+Mesmo com a conclusão do curso, o projeto está em desenvolvimento, pois pretendo incluir mais interação às páginas.
 - [x] 24/04 - 1ª pré-entrega: Página 1 e 2 com HTML e CSS
 - [x] 15/05 - Entrega 1: 3 páginas com HTML, CSS, Bootstrap e design responsivo.
 - [x] 29/05 - 2ª pré-entrega
